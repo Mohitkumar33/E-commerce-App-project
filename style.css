@@ -6,11 +6,16 @@
     --very-light-gray: #e2e0e0bd;
 }
 
+* {
+    box-sizing: border-box;
+}
+
 body {
     margin: 0;
     width: 100%;
 }
 
+/*************nav started****************/
 nav {
     display: flex;
     justify-content: space-between;
@@ -28,7 +33,7 @@ nav {
 .input-field input {
     padding-left: 30px;
     width: 25rem;
-    height: 1.5rem;
+    height: 1.8rem;
     border-radius: 5px;
     border: 2px solid var(--primary-color);
 }
@@ -81,6 +86,10 @@ nav {
     width: 2.18rem;
 }
 
+/*************nav end****************/
+
+
+/*************main started****************/
 main {
     display: flex;
     flex-direction: column;
@@ -88,6 +97,7 @@ main {
     background-color: var(--gray-light);
 }
 
+/*************card started****************/
 .card-4 {
     width: 100%;
     border: 1px solid black;
@@ -131,6 +141,9 @@ main {
     color: white;
 }
 
+/*************card end****************/
+
+/*************advertisement started****************/
 .advertisement-box {
     background-color: var(--primary-color);
     height: 25rem;
@@ -138,10 +151,12 @@ main {
     margin-left: 10%;
     margin-right: 10%;
     margin-top: 1.5rem;
-    ;
     margin-bottom: 1.5rem;
 }
 
+/*************advertisement end****************/
+
+/*************different started****************/
 .arrivals {
     margin-left: 10%;
     margin-right: 10%;
@@ -178,6 +193,7 @@ main {
     flex-direction: column;
 }
 
+<<<<<<< HEAD
 .links-to-pages {
     display: flex;
     flex-direction: column;
@@ -194,3 +210,6 @@ main {
     border: 2px solid rgba(0, 0, 0, 0.103);
     border-radius: 5px;
 }
+=======
+/*************different arrivals ends****************/
+>>>>>>> 9ceeccc665081cb0b7c9f583e41765681ccc04e0
