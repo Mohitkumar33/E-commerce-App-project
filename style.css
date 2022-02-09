@@ -192,8 +192,7 @@ main {
     display: flex;
     flex-direction: column;
 }
-
-<<<<<<< HEAD
+/*************different arrivals ends****************/
 .links-to-pages {
     display: flex;
     flex-direction: column;
@@ -210,6 +209,8 @@ main {
     border: 2px solid rgba(0, 0, 0, 0.103);
     border-radius: 5px;
 }
-=======
-/*************different arrivals ends****************/
->>>>>>> 9ceeccc665081cb0b7c9f583e41765681ccc04e0
+.links-to-pages a {
+    text-decoration: none;
+    color: white;
+}
+
