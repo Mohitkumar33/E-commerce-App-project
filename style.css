@@ -177,3 +177,20 @@ main {
     display: flex;
     flex-direction: column;
 }
+
+.links-to-pages {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.links-to-pages button {
+    padding: 8px 12px;
+    border-radius: 2px;
+    border: 1px;
+    background-color: var(--primary-color);
+    color: white;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.041);
+    border: 2px solid rgba(0, 0, 0, 0.103);
+    border-radius: 5px;
+}
