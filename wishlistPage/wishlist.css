@@ -90,8 +90,14 @@ nav {
 
 /************main started*************/
 
+main{
+    background-color: var(--very-light-gray);
+}
+
 .main-h2 {
     text-align: center;
+    margin-top: 0px;
+    padding-top: 20px;
 }
 
 .all-products {
