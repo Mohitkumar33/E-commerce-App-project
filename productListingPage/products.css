@@ -101,7 +101,7 @@ main{
 
 .all-products {
     display: flex;
-    padding-left: 18%;
+    padding-left: 16%;
     padding-right: 15%;
     flex-wrap: wrap;
     gap: 20px;
