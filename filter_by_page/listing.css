@@ -106,11 +106,33 @@ main {
 /*************sidebar started****************/
 .sort-filter {
     height: 100vh;
-    width: 20%;
+    width: 16.8rem;
     background-color: white;
     padding: 1rem;
     position: fixed;
     top: 4rem;
+}
+
+.clear-button {
+    display: flex;
+    justify-content: space-between;
+}
+
+.clear-button button {
+    background-color: transparent;
+    border-radius: 1px solid rgb(173, 172, 172);
+    font-weight: bolder;
+}
+
+.slider-input[type="range"] {
+    cursor: pointer;
+    width: 100%;
+}
+
+.slider-input-setting label {
+    margin-left: 10px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .sort-filter h3 {
@@ -132,11 +154,18 @@ main {
 
 
 /*************product listing started****************/
+.product-listing-setting{
+    display: flex;
+}
+.left-space {
+    width: 22.5rem;
+}
 .products-listing {
     width: 100%;
     background-color: var(--very-light-gray);
-    padding-left: 22%;
+    /* margin-left: 22%; */
     margin-top: 4rem;
+    /* z-index: 1; */
 }
 
 .listing-column {

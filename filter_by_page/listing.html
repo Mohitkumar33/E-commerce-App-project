@@ -45,10 +45,15 @@
     <main>
         <!-- left side filter started -->
         <div class="sort-filter">
-            <h3>Filters</h3>
+            <div class="clear-button">
+                <h3>Filters</h3>
+                <button>Clear</button>
+            </div>
+            
             <h3>Price</h3>
-            <div class="slider-input">
-                <input type="range" id="points" name="points" min="0" max="5000">
+            <div class="slider-input-setting">
+                <label for="slider-input">0 <span>2500</span> <span>5000</span></label>
+                <input class="slider-input" type="range" id="points" name="points" min="0" max="5000">
             </div>
             <h3>Category</h3>
             <div class="checkbox-input">
@@ -73,8 +78,14 @@
         <!-- left side filter ended -->
 
         <!-- all products listing started -->
+        <div class="product-listing-setting">
+
+        
+        <div class="left-space">
+
+        </div>
         <div class="products-listing">
-            <h3>Showing All Products <span><small>(Showing 20 products)</small></span></h3>
+            <h3 style="margin-left: 20px;">Showing All Products <span><small>(Showing 20 products)</small></span></h3>
             <div class="listing-column">
                 <div class="card-2">
                     <div class="card-2-col-1">
@@ -182,6 +193,7 @@
             </div>
 
         </div>
+    </div>
     </main>
 
 </body>
