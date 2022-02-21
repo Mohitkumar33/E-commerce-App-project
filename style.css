@@ -4,6 +4,7 @@
     --button-blue-color: #4e94f0;
     --red-marker-icon: #e64c4c;
     --very-light-gray: #e2e0e0bd;
+    --footer-copyright-darkgray: #5a5959;
 }
 
 * {
@@ -30,7 +31,7 @@ nav {
     flex-wrap: wrap;
 }
 
-.brand-name h2{
+.brand-name h2 {
     margin-top: 15px;
     margin-bottom: 15px;
 }
@@ -204,6 +205,7 @@ main {
     display: flex;
     flex-direction: column;
 }
+
 /*************different arrivals ends****************/
 .links-to-pages {
     display: flex;
@@ -211,6 +213,7 @@ main {
     justify-content: center;
     align-items: center;
 }
+
 .links-to-pages button {
     padding: 8px 12px;
     border-radius: 2px;
@@ -221,8 +224,36 @@ main {
     border: 2px solid rgba(0, 0, 0, 0.103);
     border-radius: 5px;
 }
+
 .links-to-pages a {
     text-decoration: none;
     color: white;
 }
 
+/************footer started ************/
+
+.footer-info {
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    justify-content: center;
+    background-color: var(--primary-color);
+    padding-left: 5rem;
+    padding-right: 5rem;
+    gap: 2rem;
+}
+
+.footer-info h3 {
+    color: white;
+}
+
+.footer-info div {
+    flex-grow: 1;
+}
+
+.footer-copyright {
+    padding: 1rem;
+    text-align: center;
+    background-color: var(--footer-copyright-darkgray);
+    color: white;
+}
