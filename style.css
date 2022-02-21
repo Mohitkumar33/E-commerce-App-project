@@ -15,6 +15,10 @@ body {
     width: 100%;
 }
 
+button:hover {
+    cursor: pointer;
+}
+
 /*************nav started****************/
 nav {
     display: flex;
@@ -23,7 +27,12 @@ nav {
     padding-left: 20px;
     padding-right: 20px;
     border-bottom: 1px solid var(--primary-color);
-    height: 4rem;
+    flex-wrap: wrap;
+}
+
+.brand-name h2{
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 .input-field {
@@ -65,10 +74,14 @@ nav {
 
 .nav-heart-icon {
     position: relative;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 
 .nav-cart-icon {
     position: relative;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 
 .marker-icon {
@@ -162,20 +175,19 @@ main {
     margin-right: 10%;
     display: flex;
     margin-bottom: 2rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
 }
 
 .summer-arrivals,
 .winter-arrivals {
     height: 15rem;
-    width: 49%;
+    width: 33.05rem;
     background-color: var(--primary-color);
     display: flex;
     align-items: center;
 
-}
-
-.summer-arrivals {
-    margin-right: 2%;
 }
 
 .summer-image,

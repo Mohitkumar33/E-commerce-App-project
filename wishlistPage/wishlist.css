@@ -15,6 +15,10 @@ body {
     width: 100%;
 }
 
+button:hover {
+    cursor: pointer;
+}
+
 /*************nav started****************/
 nav {
     display: flex;
@@ -106,6 +110,8 @@ main{
     padding-right: 15%;
     flex-wrap: wrap;
     gap: 20px;
+    justify-content: center;
+    align-items: center;
 }
 
 /************card started*************/
@@ -151,4 +157,9 @@ main{
     border-radius: 50%;
     color: red;
     fill: red;
+}
+
+.card-1:hover {
+    height: 19.75rem;
+    width: 13.5rem;
 }

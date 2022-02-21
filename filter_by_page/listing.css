@@ -15,6 +15,10 @@ body {
     width: 100%;
 }
 
+button:hover {
+    cursor: pointer;
+}
+
 /*************nav started****************/
 
 nav {
