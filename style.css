@@ -172,8 +172,8 @@ main {
 
 /*************different started****************/
 .arrivals {
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 8%;
+    margin-right: 8%;
     display: flex;
     margin-bottom: 2rem;
     flex-wrap: wrap;
@@ -184,7 +184,7 @@ main {
 .summer-arrivals,
 .winter-arrivals {
     height: 15rem;
-    width: 33.05rem;
+    width: 31rem;
     background-color: var(--primary-color);
     display: flex;
     align-items: center;
@@ -192,7 +192,7 @@ main {
 }
 
 .summer-image img,
-.winter-image img{
+.winter-image img {
     width: 10rem;
     height: 10.5rem;
     background-color: white;
