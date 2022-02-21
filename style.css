@@ -191,10 +191,10 @@ main {
 
 }
 
-.summer-image,
-.winter-image {
-    width: 30%;
-    height: 70%;
+.summer-image img,
+.winter-image img{
+    width: 10rem;
+    height: 10.5rem;
     background-color: white;
     margin-left: 2rem;
     margin-right: 1rem;
